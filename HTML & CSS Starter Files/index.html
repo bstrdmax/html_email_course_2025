@@ -61,16 +61,48 @@
         <br><br>
         <input type="range">
         <br><br>
-        <input type="button" value="button">
+        <input type="button" value="Button">
         <br><br>
         <input type="submit">
         <br><br>
         <input type="reset">
         <br><br>
-
-
     </form>
+    <br><br>
 
+
+    <form action="example.php" method="post">
+        <fieldset>
+            <legend>Contact Us</legend>
+            <label for="username">Name:</label>
+            <input type="text" name="username" id="username" placeholder="Enter your name." required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email." required>
+            <br><br>
+            <label for="reason">Reason for email:</label>
+            <select name="reason" id="reason">
+                <option value="support">Support</option>
+                <option value="sales">Sales</option>
+                <option value="review">Review</option>
+            </select>
+            <br><br>
+            <label for="date">Pick a date:</label>
+            <input type="date" name="date" id="date">
+            <br><br>
+            How should we replay?
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="radio" name="phone" id="phone">
+            <br>            
+            <label for="email-reply">Email:</label>
+            <input type="radio" name="email-reply" id="email-reply">
+            <br><br>
+            <textarea name="message" cols="26" rows="5" placeholder="Enter your message."></textarea>
+            <br><br>
+            <input type="submit" value="Contact Us">
+        </fieldset>
+    </form>
 
     <table style="width: 100%; text-align: center;" border="1">
         <tr>
