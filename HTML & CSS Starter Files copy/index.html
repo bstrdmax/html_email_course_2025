@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+           background-color: antiquewhite;
+           width: 48%;
+           float: left;
+           margin: 1%;
+           text-align: center; 
+        }
+        #red{
+            color: red;
+        }
+        #blue{
+            color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<p style="background-color: aquamarine;">T</p>
+
+<h1 style="border: 1px solid black;">Block</h1>
+
+<big style="border: 1px solid black;">Inline</big>
+
+<p style="border: 1px solid black; background-color: yellow;">Cheese Block</p>
+
+<p>Standing <mark>inline</mark> at the store.</p>
+
+<h2>HTML Audio</h2>
+<audio controls>
+    <source src="example.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<h2>This is our HTML Video</h2>
+<video controls width="100%">
+    <source src="example.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+
+
+    <p>Headings</p>
+    <h1>1</h1>
+    <h2>2</h2>
+    <h3>3</h3>
+    <h4>4</h4>
+    <h5>5</h5>
+    <h6>6</h6>
+    <p>This is another one</p>
+
+    <br><br>
+
+    <div class="box">
+        <h1 id="red">Red Shirt</h1>
+        <p>The text above is red.</p>
+    </div>
+    <div class="box">
+        <h1 id="blue">Blue Shirt</h1>
+        <p>The text above is blue.</p>
+    </div>
+
+    <!--Comment -->
+
+    <form action="example.php" method="post">
+        Name:
+        <input type="text" name="name" placeholder="Enter your name.">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email." required>
+        <br><br>
+        <textarea name="message" cols="22" rows="3" placeholder="Enter your message."></textarea>
+        <br><br>
+        <input type="submit" value="Send message">
+
+    </form>
+    <br><br>
+
+    <form action="">
+        <input type="text">
+        <br><br>
+        <input type="time">
+        <br><br>
+        <input type="week">
+        <br><br>
+        <input type="month">
+        <br><br>
+        <input type="date">
+        <br><br>
+        <input type="datetime-local">
+        <br><br>
+        <input type="file">
+        <br><br>
+        <input type="number" placeholder="number">
+        <br><br>
+        <input type="email" placeholder="email">
+        <br><br>
+        <input type="password" placeholder="password">
+        <br><br>
+        <input type="search" placeholder="search">
+        <br><br>
+        <input type="radio">
+        <br><br>
+        <input type="checkbox">
+        <br><br>
+        <input type="range">
+        <br><br>
+        <input type="button" value="Button">
+        <br><br>
+        <input type="submit">
+        <br><br>
+        <input type="reset">
+        <br><br>
+    </form>
+    <br><br>
+
+
+    <form action="example.php" method="post">
+        <fieldset>
+            <legend>Contact Us</legend>
+            <label for="username">Name:</label>
+            <input type="text" name="username" id="username" placeholder="Enter your name." required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email." required>
+            <br><br>
+            <label for="reason">Reason for email:</label>
+            <select name="reason" id="reason">
+                <option value="support">Support</option>
+                <option value="sales">Sales</option>
+                <option value="review">Review</option>
+            </select>
+            <br><br>
+            <label for="date">Pick a date:</label>
+            <input type="date" name="date" id="date">
+            <br><br>
+            How should we replay?
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="radio" name="phone" id="phone">
+            <br>            
+            <label for="email-reply">Email:</label>
+            <input type="radio" name="email-reply" id="email-reply">
+            <br><br>
+            <textarea name="message" cols="26" rows="5" placeholder="Enter your message."></textarea>
+            <br><br>
+            <input type="submit" value="Contact Us">
+        </fieldset>
+    </form>
+    <br><br>
+
+    <table style="width: 100%; text-align: center;" border="1">
+        <tr>
+            <th>Person</th>
+            <th>City</th>
+            <th>Business</th>
+        </tr>
+        <tr>
+            <td>Bill</td>
+            <td>Seattle</td>
+            <td>Coffee</td>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>London</td>
+            <td>Hair Salon</td>
+        </tr>
+        <tr>
+            <td>Phil</td>
+            <td>Sydney</td>
+            <td>Lounge</td>
+        </tr>
+    </table>
+
+<ul>
+    <li>One Item</li>
+    <li>Two Item
+        <ul>
+            <li>New List One</li>
+            <li>New List Two</li>
+        </ul>
+    </li>
+    <li>Three Item</li>
+</ul>
+
+<Ol>
+    <Li>Soda</Li>
+    <Li>Milkshake
+        <Ol>
+            <Li>Vanilla</Li>
+            <Li>Chocolate</Li>
+            <Li>Strawberry</Li>
+        </Ol>
+    </Li>
+    <Li>Water</Li>
+</Ol>
+
+    <p>This is <b>Bold Text </b></p>
+    <p>This is <i>Italic Text</i></p>
+    <p>This is <u>Underlined Text</u></p>
+
+    <p>This is a <a href="https://google.com" target="_blank" title="Google Stuff"> Google link</a></p>
+
+<br>
+    <img src="example.jpg" alt="" width="250">
+
+<br>
+
+    <img src="img/example.jpg" title="Image Example" alt="Example Title" width="200" height="200" style="border: 2px solid red; border-radius: 50%;">
+
+    <h3 style="color: red;">This is RED</h3>
+
+<br>
+
+    <img src="" alt="">
+
+    <a href="https://google.com" target="_blank"> 
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQNJgVPk88H7N4njkQXBGIBomyJly6uSngxQ&s" title="Image Placeholder" alt="Image Placeholder Text"> </a>
+
+        <br><br>
+
+    
+
+    <a href="https://google.com" target="_blank" title="Google Stuff"> Google link</a>
+    
+
+    <br><br>
+
+    <a href="#name">Text link to name ID</a>
+
+    <div style="height: 100vh;"></div>
+
+    <h2 id="name">This is the name ID</h2>
+
+    <div style="height: 100vh;"></div>
+</body>
+</html>
