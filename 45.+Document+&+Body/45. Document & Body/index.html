@@ -94,6 +94,7 @@
          text-align: center;
          padding: 10px;
          margin: 20px 0 5px;
+         width: 96%;
 
       }
       ul.social li{
@@ -106,10 +107,43 @@
       .contact{
          text-align: center;
          color: #2b9684;
+         font-weight: 500;
+         line-height: 30px;
+         padding-bottom: 6%;
       }
       .contact a{
          color: #2b9684;
+         text-decoration: none;
+         transition: .4s;
       }
+
+     .contact a:hover{
+         color: #fe6b58;
+     } 
+
+     @media (max-width: 600px){
+      body{
+         padding: 5px;
+
+      }
+      .banner{
+         margin-bottom: 20px;
+      }
+      .three-columns,.two-columns{
+         width: 96%;
+         margin: 0 0 35px;
+      }
+      .three-columns img {
+         max-width: 156px;
+      }
+      hr.orange{
+         margin-bottom: 30px;
+      }
+      .two-columns:last-of-type {
+         padding-left: 18px;
+         padding-bottom: 30px;
+      }
+     }
    </style>
 </head>
 <body>
