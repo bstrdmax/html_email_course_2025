@@ -42,6 +42,15 @@
          font-size: 16px;
       }
 
+      u + .body .gmail-blend-screen {
+         background: #000;
+         mix-blend-mode: screen;
+      }
+      u + .body .gmail-blend-difference {
+         background: #000;
+         mix-blend-mode: difference;
+      }
+
       .ExternalClass {
          width: 100%;
       }
@@ -120,6 +129,33 @@
                            <h1 style="text-align: center; font-size: 30px;">This is some text.</h1>
                            <h2 style="text-align: center; font-size: 26px;">This is some text.</h2>
                            <h3 style="text-align: center; font-size: 22px;">This is some text.</h3>
+                        </td>
+                     </tr>
+
+                  </table>
+               </td>
+            </tr>
+
+            <tr>
+               <td style="padding: 0;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+
+                     <tr>
+                        <td style="padding: 10px; background-color: #21c6b8;">
+                           <h1 style="text-align: center; font-size: 30px;">Text without CSS Blend Mode.</h1>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td style="padding: 10px; background: linear-gradient(#21c6b8, #21c6b8); background-color: #21c6b8;">
+
+                           <div class="gmail-blend-screen">
+                              <div class="gmail-blend-difference">
+
+                                 <h1 style="color: #ffffff; text-align: center; font-size: 30px;">This is CSS Blend Mode text.</h1>
+
+                              </div>
+                           </div>
+
                         </td>
                      </tr>
 
